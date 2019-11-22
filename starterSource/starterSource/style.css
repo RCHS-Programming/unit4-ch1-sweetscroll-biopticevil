@@ -5,7 +5,7 @@ body, html {
   color: White;
 }
 
-.cd-logo, .kitchen-equipment, .cake-ingredients {
+.cd-logo, .kitchen-equipment, .cake-ingredients,.mixer {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,9 +36,28 @@ h3 {
 }
 
 .kitchen-equipment {
-  background-image: url("utensils.JPG")
+  background-image: url("utensils.JPG");
 }
 
 .cake-ingredients {
-  background-image: url("ingredients.jpg")
+  background-image: url("ingredients.jpg");
+}
+
+.mixer {
+  background-image: url("mixer.jpg");
+}
+
+.caption{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.border {
+  background-color: #41BAC1;
+  color: White;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
